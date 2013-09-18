@@ -5,3 +5,52 @@ h1 {font-size: 3em}
 
 img.vthumb {width:250px;
             border: 0}
+
+/* below code is from cssbuttongenerator.com */
+.installbutton {
+    margin-left: 0.7em;
+    -moz-box-shadow:inset 0px 1px 0px 0px #c1ed9c;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #c1ed9c;
+    box-shadow:inset 0px 1px 0px 0px #c1ed9c;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #9dce2c), color-stop(1, #8cb82b) );
+    background:-moz-linear-gradient( center top, #9dce2c 5%, #8cb82b 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#9dce2c', endColorstr='#8cb82b');
+    background-color:#9dce2c;
+    -webkit-border-top-left-radius:11px;
+    -moz-border-radius-topleft:11px;
+    border-top-left-radius:11px;
+    -webkit-border-top-right-radius:11px;
+    -moz-border-radius-topright:11px;
+    border-top-right-radius:11px;
+    -webkit-border-bottom-right-radius:11px;
+    -moz-border-radius-bottomright:11px;
+    border-bottom-right-radius:11px;
+    -webkit-border-bottom-left-radius:11px;
+    -moz-border-radius-bottomleft:11px;
+    border-bottom-left-radius:11px;
+    text-indent:0;
+    border:1px solid #83c41a;
+    display:inline-block;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:19px;
+    font-weight:bold;
+    font-style:normal;
+    height:37px;
+    line-height:37px;
+    width:200px;
+    text-decoration:none;
+    text-align:center;
+    text-shadow:1px 1px 0px #689324;
+}
+.installbutton:hover {
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #8cb82b), color-stop(1, #9dce2c) );
+    background:-moz-linear-gradient( center top, #8cb82b 5%, #9dce2c 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#8cb82b', endColorstr='#9dce2c');
+    background-color:#8cb82b;
+}.installbutton:active {
+    position:relative;
+    top:1px;
+}
+
+.installbutton a { color: inherit; text-decoration: none; }
